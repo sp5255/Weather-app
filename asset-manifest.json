@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Weather-app/static/css/main.65233ab3.css",
+    "main.js": "/Weather-app/static/js/main.9ae3caae.js",
+    "static/js/787.8f84f9d8.chunk.js": "/Weather-app/static/js/787.8f84f9d8.chunk.js",
+    "static/media/1062_15.jpg": "/Weather-app/static/media/1062_15.4745e41eeda50d61bd00.jpg",
+    "static/media/thermometer-celsius.svg": "/Weather-app/static/media/thermometer-celsius.1831b1d8c56c1573f170fa4067b73438.svg",
+    "static/media/uv-index.svg": "/Weather-app/static/media/uv-index.90f496ccc9b831620b55479af21310d8.svg",
+    "static/media/humidity.svg": "/Weather-app/static/media/humidity.f6f97c5f6b692e20bbb132d27e5fa8e1.svg",
+    "static/media/sunrise.svg": "/Weather-app/static/media/sunrise.749e354e586c2010362b8570d5c3f33e.svg",
+    "static/media/sunset.svg": "/Weather-app/static/media/sunset.89562883e8691c69a12f126cad1d76d5.svg",
+    "static/media/wind.svg": "/Weather-app/static/media/wind.7666ea56edeecb3eff022542f7995c2d.svg",
+    "static/media/barometer.svg": "/Weather-app/static/media/barometer.8b6e33cb1de88118509b26e7a8860a5d.svg",
+    "index.html": "/Weather-app/index.html",
+    "main.65233ab3.css.map": "/Weather-app/static/css/main.65233ab3.css.map",
+    "main.9ae3caae.js.map": "/Weather-app/static/js/main.9ae3caae.js.map",
+    "787.8f84f9d8.chunk.js.map": "/Weather-app/static/js/787.8f84f9d8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65233ab3.css",
+    "static/js/main.9ae3caae.js"
+  ]
+}
