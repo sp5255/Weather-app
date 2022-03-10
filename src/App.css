@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap");
+
+.App {
+    background: url("./images/1062_15.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100vw; */
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    font-family: "Fredoka", sans-serif;
+}
+
+.header--section {
+    background: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    /* position: relative; */
+    margin: 2rem 0rem;
+}
+
+.city--info{
+    padding: 1rem 0rem;
+}
+
+.city--info:hover{
+    cursor: pointer;    
+}
+
+.header--section input,
+.header--section button {
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background: inherit;
+}
+
+.header--section button:hover {
+    cursor: pointer;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* background: yellow; */
+
+    color: white;
+    border-radius: 0.5rem;
+
+    box-shadow: 2px 2px 17px rgb(0 0 0 / 20%);
+    padding: 2rem;
+    width: 7rem;
+    transition: all 0.2s;
+    font-size: 1.1rem;
+}
+
+.card label {
+    display: inline-block;
+    margin: 0.2rem 0rem;
+    /* background-color: red;  */
+}
+
+.card .temperature {
+    /* background-color: red; */
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.card--container {
+    display: flex;
+    /* justify-content: space-around ; */
+    justify-content: space-between;
+    /* background-color: red; */
+    /* padding: 2rem 0rem; */
+    width: 100vw;
+    flex-wrap: wrap;
+    /* overflow-x: scroll; */
+    color: white;
+}
+
+.card--container > div:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    box-shadow: 2px 2px 17px rgb(0 0 0 / 70%);
+}
+
+.card--container .temperature span {
+    /* background-color: red; */
+    font-size: 1.4rem;
+}
+
+.details--section .card {
+    box-shadow: initial;
+    padding: 0rem;
+}
+
+.details--section {
+    display: flex;
+    /* background-color: red; */
+    box-shadow: 2px 2px 17px rgb(0 0 0 / 20%);
+    padding: 0.7rem 2.5rem;
+    transition: all 0.2s;
+    font-size: 1.1rem;
+    background: linear-gradient(45deg, #c8a08c, transparent);
+    backdrop-filter: blur(5px);
+    color: white;
+    width: 40rem;
+    border-radius: 1rem;
+}
+
+.details--section > div:nth-child(1) {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.current--details {
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+}
+
+.current--details > div {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    /* background-color: yellow; */
+    /* margin:  .2rem; */
+}
+
+.current--details {
+    /* background: salmon; */
+    /* flex: 2; */
+}
+.details--section .card {
+    flex: 1;
+}
+
+.current--details img {
+    width: 5rem;
+}
+
+.current--details > div {
+    /* background-color: red; */
+    /* margin: .5rem 0rem ; */
+}
+.details--icon {
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
